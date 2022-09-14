@@ -414,9 +414,65 @@ button[data-type="inverted"]:focus-visible {
   }
 
 }
+/* my work and carousel */
+
+#my-work .container {
+  padding-bottom: 32px;
+}
 
 /* contact*/
+#contact {
+  padding-bottom: 22px;
+}
 #contact .container {
   border-radius: 10px;
   color: var(--clr-primary-100);
+}
+
+.two-columns {
+  padding: 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.two-columns > div:first-child {
+  width: 540px;
+}
+.two-columns p {
+  padding: 25px 0;
+}
+.two-columns > div:last-child {
+  padding-right: 30px;
+}
+
+@media only screen and (max-width: 1150px) {
+  #contact .container {
+    text-align: center;
+  }
+
+  .two-columns p {
+    padding: 25px;
+  }
+  .two-columns {
+    padding-right: 25px;
+    padding-left: 25px;
+    flex-flow: column nowrap;
+  }
+  .two-columns > div:last-child {
+    padding-right: unset;
+  }
+
+}
+
+@media only screen and (max-width: 767px) {
+  .two-columns  {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .two-columns > div:first-child {
+    width: unset;
+  }
+  .two-columns p {
+    padding: 25px 0;
+  }
 }
