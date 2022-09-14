@@ -207,6 +207,7 @@ footer .container {
 button {
   cursor: pointer;
   font-size: 16px;
+  font-weight: var(--fw-bold);
   border: none;
   border-radius: 50px;
   background: var(--clr-primary-900);
