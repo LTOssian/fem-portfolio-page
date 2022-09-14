@@ -52,7 +52,7 @@ class Carousel {
 
     }
 /**
- * Déplacele carousel vers l'élement ciblé
+ * Déplace le carousel vers l'élement ciblé
  * @param {number} index 
  */
     goToItem (index) {
