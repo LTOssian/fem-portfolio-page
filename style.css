@@ -273,6 +273,7 @@ button[data-type="inverted"]:focus-visible {
 #skills .container span {
   position: relative;
   font-size: var(--fs-skills);
+  font-weight: var(--fw-bold);
   color: var(--clr-primary-100);
 }
 .inset-one {
