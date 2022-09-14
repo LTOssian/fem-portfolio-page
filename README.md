@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./assets/Capture%20web_14-9-2022_203843_127.0.0.1.jpeg)
+![](./assets/Capture%20web_14-9-2022_213656_127.0.0.1.jpeg)
 
 ### Links
 
