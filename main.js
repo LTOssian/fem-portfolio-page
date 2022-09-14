@@ -67,8 +67,6 @@ class Carousel {
         this.currentItem = index;
 
     }
-
-
     /**
      * 
      * @param {string} className 
