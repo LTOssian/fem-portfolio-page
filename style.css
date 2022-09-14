@@ -257,6 +257,7 @@ button[data-type="inverted"]:focus-visible {
 }
 
 #skills .container {
+  padding: 48px 0;
   display: grid;
   width: unset;
   grid-template-columns: repeat(6, 164px);
