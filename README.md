@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [My FEM Profile](https://your-solution-url.com)
+- Solution URL: [My FEM Profile](https://www.frontendmentor.io/solutions/responsive-single-page-portfolio-css-grid-js-bouED2XArh)
 - Live Site URL: [Github pages](https://ltossian.github.io/fem-portfolio-page/)
 
 ## My process
