@@ -416,8 +416,48 @@ button[data-type="inverted"]:focus-visible {
 }
 /* my work and carousel */
 
-#my-work .container {
-  padding-bottom: 32px;
+#my-work {
+  padding-bottom: 88px;
+  text-align: center;
+  overflow: hidden;
+}
+#my-work h2 {
+  padding-bottom: 56px;
+}
+#my-work button {
+  padding: 25px;
+}
+.carousel-left {
+  margin-right: 5px
+}
+.carousel-right {
+  margin-left: 5px;
+}
+.carousel__item {
+  padding: 0 10px;
+}
+#carousel {
+  position: relative;
+  padding-bottom: 56px;
+}
+@media only screen and (max-width:767px) {
+  #carousel,
+  #my-work h2 {
+    padding-bottom: 32px; 
+  }
+}
+.carousel__item {
+  float: left;
+  width: 20%;
+}
+.carousel__container {
+  transition: transform .3s;
+  transform: translate3d(0, 0, 0);
+}
+.carousel__container::after {
+  content: '';
+  clear: both;
+  display: table;
 }
 
 /* contact*/

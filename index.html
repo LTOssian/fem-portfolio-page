@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script type="module" src="/main.js"></script>
+
   </head>
   <body class="bg-primary-100">
     <header class="primary-header">
@@ -70,10 +72,27 @@
       </section>
 
       <section id="my-work">
-        <div class="container">
           <h2 class="fs-secondary-heading fw-bold text-primary-900">My work</h2>
         <!-- carousel here-->
+        <div id="carousel">
+          <div class="item-1">
+            <img src="/assets/image-slide-1.jpg" alt="">
+          </div>
+          <div class="item-2">
+            <img src="/assets/image-slide-2.jpg" alt="">
+          </div>
+          <div class="item-3">
+            <img src="/assets/image-slide-3.jpg" alt="">
+          </div>
+          <div class="item-4">
+            <img src="/assets/image-slide-4.jpg" alt="">
+          </div>
+          <div class="item-5">
+            <img src="/assets/image-slide-5.jpg" alt="">
+          </div>
         </div>
+        <button class="carousel-left"><img src="/assets/icon-arrow-left.svg" alt=""></button>
+        <button class="carousel-right"><img src="/assets/icon-arrow-right.svg" alt=""></button>
       </section>
 
       <section id="contact">
@@ -97,6 +116,5 @@
         </div>
       </footer>
     </main>
-    <script type="module" src="/main.js"></script>
   </body>
 </html>
